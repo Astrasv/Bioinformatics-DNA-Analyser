@@ -2,6 +2,11 @@
 
 This web application enables users to analyze DNA sequences through various operations such as counting nucleotides, calculating GC content, transcribing DNA to RNA, translating RNA to protein, and analyzing amino acid frequencies. It also provides interactive visualizations for enhanced understanding.
 
+# Screenshots
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
 ## How to Use:
 
 ### Clone the Repository:
