@@ -95,13 +95,13 @@ def display_main():
 
     st.header('Enter DNA sequence')
 
-    sequence_input = ">DNA Query 2\nGAACACGTGGAGGCAAACAGGAAGGTGAAGAAGAACTTATCCTATCAGGACGGAAGGTCCTGTGCTCGGG\nATCTTCCAGACGTCGCGACTCTAAATTGCCCCCTCTGAGGTCAAGGAACACAAGATGGTTTTGGAAATGC\nTGAACCCGATACATTATAACATCACCAGCATCGTGCCTGAAGCCATGCCTGCTGCCACCATGCCAGTCCT"
+    sequence_input = ">DNA Query \n Enter Nucleotide and press Ctrl + Enter"
 
     st.subheader("Sequence Input")
     sequence = st.text_area("", sequence_input, height=170)
     sequence = sequence.splitlines()
-    sequence = sequence[1:] # Skips the sequence name (first line)
     sequence = ''.join(sequence) # Concatenates list to string
+    sequence = sequence.replace(" ","")
     
     flag = 0
     for i in sequence.upper():
