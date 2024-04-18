@@ -2,6 +2,9 @@
 
 This web application enables users to analyze DNA sequences through various operations such as counting nucleotides, calculating GC content, transcribing DNA to RNA, translating RNA to protein, and analyzing amino acid frequencies. It also provides interactive visualizations for enhanced understanding.
 
+[Try Out]([https://link-url-here.org](https://bioinformatics-dna-analyser.streamlit.app/))
+
+
 # Screenshots
 ![alt text](image.png)
 ![alt text](image-1.png)
